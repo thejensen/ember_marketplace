@@ -8,19 +8,38 @@ img {
   font-size: 32px;
   border: 5px solid white;
   border-radius: 1px;
-  background-color: #A3EEE1;
   opacity: 0.8;
-  color: #449450;
+  position: relative;
+  top: 600px;
 }
 
 header {
+  z-index: -1;
+  position: absolute;
+  top: 30px;
   font-size: 32px;
   font-style: arial;
   text-align: left;
   border-radius: 5px;
-  background: url(https://images.unsplash.com/photo-1437750769465-301382cdf094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=229e6f3791f4708158e49fa718e71b86) 10% 0% no-repeat;
+  background: url(https://images.unsplash.com/photo-1437750769465-301382cdf094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=229e6f3791f4708158e49fa718e71b86) 100% 100% no-repeat;
   color: #D4D4D4;
   height: 300px;
   width: 100%;
-  padding: 10px;
+  font-family: courier;
+}
+
+.darken-header-image {
+  z-index: 0;
+  position: relative;
+  top: 0px;
+  height: 280px;
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.headertext {
+  position: relative;
+  top: 70px;
 }
