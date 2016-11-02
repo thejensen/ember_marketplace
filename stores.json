@@ -1,12 +1,12 @@
 {
   "stores": [{
     "title": "Apple",
-    "image": "http://kingofwallpapers.com/apple/apple-015.jpg",
+    "image": "https://images.unsplash.com/photo-1474564862106-1f23d10b9d72?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=d89a4be7fc7ddb4ccb98e0c62a73e430",
     "description": "Juicy",
     "cost": 0.99
   }, {
     "title": "Pinneapple",
-    "image": "http://farmflavor.com/wp-content/uploads/2014/04/4405120042_8165106b6e_o-740x477.jpg",
+    "image": "https://images.unsplash.com/photo-1471286274405-579f8d7132d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=c21ba4f6538b126797f2c032b2bc7c1b",
     "description": "It's a fineapple",
     "cost": 32
   }, {

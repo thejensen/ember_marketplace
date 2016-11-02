@@ -1,11 +1,9 @@
-{{display-cart}}
+
 
 <h1>Product:{{product.title}}</h1>
 <br>
-<img src="{{product.image}}" alt="img">
-<br>
-<h5>What is this? {{product.description}}</h5>
-<br>
-<h4>Current Price:{{product.cost}}</h4>
+{{#link-to 'product' product.id}}
+  <img src="{{product.image}}" alt="img">
+{{/link-to}}
 <br>
 <button class="btn btn-warning"{{action 'addToCart' product}}> Add to Cart</button>
