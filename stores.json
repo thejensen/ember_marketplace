@@ -1,0 +1,23 @@
+{
+  "stores": [{
+    "title": "Apple",
+    "image": "http://kingofwallpapers.com/apple/apple-015.jpg",
+    "description": "Juicy",
+    "cost": 0.99
+  }, {
+    "title": "Pinneapple",
+    "image": "http://farmflavor.com/wp-content/uploads/2014/04/4405120042_8165106b6e_o-740x477.jpg",
+    "description": "It's a fineapple",
+    "cost": 32
+  }, {
+    "title": "Jackfruit",
+    "image": "https://globalfoodbook.com/wp-content/uploads/2015/11/Jackfruit..jpg",
+    "description": "Sweet and makes great BBQ",
+    "cost": 40
+  }, {
+    "title": "Lychee",
+    "image": "http://media.mercola.com/assets/images/food-facts/lychee-fb.jpg",
+    "description": "10/10",
+    "cost": 15
+  }]
+}
