@@ -1,15 +1,14 @@
 <header>
   <div class="darken-header-image">
-  <h1 class="headertext"> Welcome to Exotic Fruits!</h1>
-  <hr>
-<h3 class="headertext"> The only website available that allows you to buy the weirdest/strangest fruits and have them shipped to your door</h3>
-  <hr>
+  <h1 class="headertext"> Welcome to Exotic Fruits!</h1><hr>
+  <h3 class="headertext"> The only website available that allows you to buy the weirdest/strangest fruits and have them shipped to your door</h3><hr>
   </div>
 </header>
 
-<div class="fruit">
-{{#link-to 'cart'}}{{display-cart}}{{/link-to}}
+<div class="fruit row">
 {{#each model as |product|}}
-  {{product-tile product=product}}
+  <div class="col-sm-4">
+    {{product-tile product=product}}
+  </div>
 {{/each}}
 </div>

@@ -1,4 +1,8 @@
 <h3>Your Shopping Cart:</h3>
+
 {{#each shoppingCart.items as |item|}}
-  {{item.title}} -- {{item.cost}}
+<li>  {{item.title}} -- {{item.cost}}</li>
 {{/each}}
+
+<u><h3> Total </h3></u>
+<button {{action 'calculateTotal' shoppingCart.items}}> Price</button>

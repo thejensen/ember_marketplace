@@ -2,6 +2,14 @@ img {
   width: 300px;
 }
 
+button {
+  float: right;
+  margin: 5%;
+}
+
+.product-image {
+  text-decoration: none;
+}
 
 .fruit {
   text-align: left;
@@ -10,7 +18,8 @@ img {
   border-radius: 1px;
   opacity: 0.8;
   position: relative;
-  top: 600px;
+  top: 300px;
+  padding: 5%;
 }
 
 header {

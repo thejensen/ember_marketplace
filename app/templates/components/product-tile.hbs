@@ -1,8 +1,6 @@
-
-
-<h1>Product:{{product.title}}</h1>
+<h1>{{product.title}}</h1>
 <br>
-{{#link-to 'product' product.id}}
+{{#link-to 'product' product.id class="product-image"}}
   <img src="{{product.image}}" alt="img">
 {{/link-to}}
 <br>
