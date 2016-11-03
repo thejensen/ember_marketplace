@@ -8,7 +8,7 @@
 <div class="fruit row">
 {{#each model as |product|}}
   <div class="col-sm-4">
-    {{product-tile product=product}}
+  {{product-tile product=product}} {{product-cost product}}
   </div>
 {{/each}}
 </div>

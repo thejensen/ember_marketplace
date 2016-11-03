@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-export function soldOut(params/*, hash*/) {
+export function soldOut(params) {
   var soldOut = params[0];
 
   if(soldOut.get('quantity') < 1) {
