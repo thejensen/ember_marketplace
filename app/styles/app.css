@@ -7,10 +7,6 @@ button {
   margin: 5%;
 }
 
-.product-image {
-  text-decoration: none;
-}
-
 .fruit {
   text-align: left;
   font-size: 32px;
@@ -19,6 +15,16 @@ button {
   opacity: 0.8;
   position: relative;
   top: 300px;
+  padding: 5%;
+}
+
+.shopping-cart {
+  text-align: left;
+  font-size: 32px;
+  border: 5px solid white;
+  border-radius: 1px;
+  opacity: 0.8;
+  position: relative;
   padding: 5%;
 }
 

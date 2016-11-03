@@ -1,6 +1,7 @@
 <h1>{{product.title}}</h1>
+{{sold-out product}}
 <br>
-{{#link-to 'product' product.id class="product-image"}}
+{{#link-to 'product' product.id}}
   <img src="{{product.image}}" alt="img">
 {{/link-to}}
 <br>

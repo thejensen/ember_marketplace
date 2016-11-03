@@ -5,7 +5,10 @@ export default Ember.Service.extend({
   total: 0,
 
   add(item) {
-    this.get('items').pushObject(item);
+    if (item.data.quantity >= 1) {
+      this.get('items').pushObject(item);
+    }
+    item.set('quantity', item.get('quantity') - 1);
   },
   addTotal(item) {
     // .data is a jquery method that retrieves the value of the object's (item) property (cost) in the datastore.
