@@ -52,3 +52,15 @@ header {
   position: relative;
   top: 70px;
 }
+
+.indeximg {
+  position: relative;
+  top: 380px;
+  left: 50px;
+
+}
+
+.cart {
+  position: relative;
+  top: 280px;
+}
